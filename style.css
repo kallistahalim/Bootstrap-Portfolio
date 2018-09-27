@@ -1,73 +1,54 @@
-* {
-    background-color:#e6dbdb;
-}
 
-ul {
-    float:right;
-    line-height: 32px;
-    display: inline-block;
-  }
- 
- ul li {
-    float: left;
-    margin-right: 15px;
-    font-family: ‘Montserrat’, sans-serif;
-    font-size: 13px;
-    text-transform: uppercase;
-    position: relative;
-    color: white;
-    margin-top: 6px;
-  }
-
-h1{
-    background-color: #ffffff;
-    border-color: #cccccc;
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    display: inline-block;
-    width: 50%;
-    padding : 6px;
-    font-size: 30px;
-    margin-top: 10px;
-    border-radius: 4px;
-}
-
-body{
-    width: 960px;
-    margin :auto;
-}
-
-#image{
-    width : 900px;
+.img-fluid{
+    width : 80%;
     display: block;
-    margin-left: auto;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.portfolio{
+    width : 40%;
+    display: block;
+    margin-left: 50px;
     margin-right: auto;
+    margin-top: 100px;
+    float : left;
+    padding : 5px;
+
+
+}
+h1 {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
 }
 
-h2{
-    color:#777777;
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    margin-top: 30px;
-    margin-bottom : 15px;
-    font-size: 18px;
+.mb-0{
+    width: 80%;
+    text-align: center;
+    margin : auto;
+    margin-top: 50px;
 }
 
+.blockquote text-center{
+    box-sizing: inline-block;
+    margin : 10px;
+    width : 90%;
+}
 #footer{
-    background-color:#666666;
     width:100%;
     height:10px; 
     text-align: left;
     padding-left: 6px;
     padding-top: 10px;
     padding-bottom: 10px;
-    color: grey;
-    color : white;
     font-size: 10px;
     font-family: ‘Montserrat’, sans-serif;
     margin: auto;
     border-radius:1px;
     right:0;
     border-top: solid 2px;
-    border-color: white;
     background-image: none;
     background-repeat: repeat;
     background-attachment: scroll;
@@ -75,17 +56,6 @@ h2{
     position: fixed;
     bottom: 0pt;
     left: 0pt;
-}
-
-    
-#main-content{
-    background-color: #ffffff;
-    border-color: #dddddd;
-}
-
-a{
-    color: white;
-    text-decoration: none;
 }
 
 #text{
@@ -108,7 +78,6 @@ input[type=text], textarea {
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
-    background-color:#f7e9ee;
     border-radius: 4px;
     border-color: white;
 }
@@ -137,7 +106,6 @@ label{
 
 #namehead{
     color: #e6dbdb;
-    background-color: white;
 }
 
 #pictures{
@@ -146,3 +114,20 @@ label{
     margin: 10px;
 }
 
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    position: relative;
+    min-height: 100%;
+  }
+  body {
+    margin-bottom: 60px; /* Margin bottom by footer height */
+  }
+  .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px; /* Set the fixed height of the footer here */
+    line-height: 60px; /* Vertically center the text there */
+  }
+  

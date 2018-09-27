@@ -1,9 +1,19 @@
 
+.jumbotron .jumbotron-fluid{
+    background-color: white;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+
+
 .img-fluid{
     width : 80%;
     display: block;
     margin: auto;
     margin-top: 100px;
+    target: "_blank";
 }
 
 .portfolio{
@@ -17,11 +27,16 @@
 
 
 }
-h1 {
+.display-4 {
     text-align: center;
     padding-top: 100px;
     padding-bottom: 100px;
+    font-family: 'Vollkorn', serif;
 
+}
+
+.text-center{
+    margin-top: 50px;
 }
 
 .mb-0{
@@ -104,9 +119,6 @@ label{
     padding-top : 300px;
 }
 
-#namehead{
-    color: #e6dbdb;
-}
 
 #pictures{
     float : left;
@@ -131,3 +143,58 @@ html {
     line-height: 60px; /* Vertically center the text there */
   }
   
+  .wrapper {
+    /* Box-model */
+    width: 1024px;
+  
+    /* Positioning */
+    margin: 40px auto;
+  }
+  
+  #main-content,
+  #sidebar {
+    /* Box-model */
+    width: 500px;
+    padding: 30px;
+  }
+  
+  #main-content {
+    /* Positioning */
+    float: left;
+  
+    /* Visual */
+    background: #fff;
+  }
+  
+  #sidebar {
+    /* Positioning */
+    float: right;
+  
+    /* Visual */
+    background: #eee;
+  }
+  
+  /*
+    These rules take effect when the browser's width
+    is either 768px or less.
+  */
+  @media screen and (max-width: 768px) {
+    /* The body's bg color will be #333 */
+    body {
+      background-color:white;
+    }
+  
+  
+  
+  @media screen and (max-width: 500px) {
+    /* The body's bg color will be #333 */
+    body {
+      background-color: pink;
+    }
+
+  
+  @media screen and (max-width: 300px) {
+    /* The body's bg color will be #333 */
+    body {
+      background-color:grey;
+    }

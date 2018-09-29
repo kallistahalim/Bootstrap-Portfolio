@@ -1,7 +1,7 @@
 
-.jumbotron .jumbotron-fluid{
+.jumbotron{
     background-color: white;
-    padding: 0;
+    padding-top: 50px;
     margin: 0;
     border: 0;
 }
@@ -46,7 +46,7 @@
     margin-top: 50px;
 }
 
-.blockquote text-center{
+.blockquote{
     box-sizing: inline-block;
     margin : 10px;
     width : 90%;
@@ -183,7 +183,7 @@ html {
     body {
       background-color:white;
     }
-  
+}
   
   
   @media screen and (max-width: 500px) {
@@ -191,10 +191,28 @@ html {
     body {
       background-color: pink;
     }
+}
 
   
   @media screen and (max-width: 300px) {
     /* The body's bg color will be #333 */
     body {
       background-color:grey;
+    }
+}
+
+    li{
+        color : grey;
+    }
+
+    li:hover {
+        color: pink;
+    }
+
+    li:focus {
+        color: black;
+    }
+
+    li:active {
+        color: grey;
     }
